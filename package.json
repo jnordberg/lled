@@ -1,0 +1,25 @@
+{
+  "name": "lled",
+  "version": "1.0.0",
+  "description": "LimitlessLED (a.k.a. MiLight) WiFi bridge v6 control library.",
+  "main": "lib/bridge.js",
+  "keywords": [
+    "limitlessled",
+    "milight"
+  ],
+  "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnordberg/lled.git"
+  },
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "prepublish": "coffee -c -b -o lib src"
+  },
+  "dependencies": {
+    "async": "^2.1.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.3"
+  }
+}
